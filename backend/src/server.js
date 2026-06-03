@@ -16,7 +16,7 @@ app.use(cors({
 
 app.get("/divyansh", (req, res)=> {
     const obj = {
-        name: "vivek"
+        name: "divyansh"
     }
     res.status(200).json(obj)
 })
