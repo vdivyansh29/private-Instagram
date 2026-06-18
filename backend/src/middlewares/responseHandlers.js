@@ -6,7 +6,7 @@ export const globalResponse = (req,res,next)=>{
             message,
             data
         });
-    };
+    }; 
 
     res.error = (statusCode = 500, message = "Internal Server Error", error = null) => {
         return res.status(statusCode).json({
